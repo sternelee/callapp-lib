@@ -22,12 +22,6 @@
     "declare-type": "tsc --emitDeclarationOnly",
     "build": "npm run declare-type & rollup -c"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && git add .",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sternelee/callapp-lib.git"
