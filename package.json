@@ -1,6 +1,6 @@
 {
-  "name": "callapp-lib",
-  "version": "3.5.3",
+  "name": "@xunlei/callapp-lib",
+  "version": "3.5.8",
   "description": "call native webview from webpage",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suanmei/callapp-lib.git"
+    "url": "git+https://github.com/sternelee/callapp-lib.git"
   },
   "keywords": [
     "rollup",
@@ -40,12 +40,12 @@
     "h5"
   ],
   "author": {
-    "name": "suanmei",
-    "email": "code_lee@sina.com",
-    "url": "https://suanmei.github.com"
+    "name": "sternelee",
+    "email": "sternelee@gmail.com",
+    "url": "https://sternelee.github.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/suanmei/callapp-lib#readme",
+  "homepage": "https://github.com/sternelee/callapp-lib#readme",
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/plugin-proposal-class-properties": "^7.10.1",

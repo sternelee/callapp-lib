@@ -101,7 +101,7 @@ class CallApp {
       }
       // Android
       // 在微信中且配置了应用宝链接
-    } else if (Browser.isWechat && typeof this.options.yingyongbao !== 'undefined') {
+    } else if ((Browser.isWechat || Browser.isQQ) && typeof this.options.yingyongbao !== 'undefined') {
       evokeByLocation(this.generateYingYongBao(config));
     } else if (Browser.isOriginalChrome) {
       if (typeof intent !== 'undefined') {
