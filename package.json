@@ -6,6 +6,9 @@
   "module": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
   "types": "dist/type/index.d.ts",
+  "publishConfig": {
+    "registry": "http://xnpm.repo.xunlei.cn/"
+  },
   "directories": {
     "dist": "dist"
   },
